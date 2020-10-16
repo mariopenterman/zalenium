@@ -56,6 +56,8 @@ hub:
   ##   Values: ClusterIP, NodePort, LoadBalancer, or ExternalName
   ## ref: https://kubernetes.io/docs/user-guide/services/
   serviceType: "NodePort"
+  
+  serviceIP: ""
 
   ## Port on which K8s service is listening on. Zalenium WebUI will be available there.
   svcPort: 80
